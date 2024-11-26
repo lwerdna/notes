@@ -1,0 +1,11 @@
+eg:
+
+  struct.unpack_from(format, /, buffer, offset=0)
+
+It signifies the end of the position only parameters.
+
+  def myfunc(pos1, pos2, / , pos_or_kwd, *, kwd1, kwd2):
+
+If a function ends with / it means all arguments are positional.
+
+  def myfunc(pos1, pos2, /)
