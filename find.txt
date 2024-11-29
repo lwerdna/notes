@@ -1,0 +1,12 @@
+Find files:
+
+  find . -name "*.py"
+ 
+The -exec lets you put a command for each file. {} is substituted with the filename, and a ; (which must be escaped to avoid shell interpretation) ends the parameters to the command:
+
+  find . -name "*.py" -exec echo {} \;
+
+Using sed's `-i` (in-place editing), you can replace text in files:
+
+  find . -name "*.py" -exec sed -i 's/before/after/g' {} \;
+
