@@ -1,0 +1,7 @@
+host lookup (reverse DNS), no packets, scan:
+
+  nmap -sL 10.0.0.0/24
+
+ping scan, no ports
+
+  nmap -sn 192.168.1.1/24
