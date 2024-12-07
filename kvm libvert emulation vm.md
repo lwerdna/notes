@@ -1,16 +1,25 @@
 KVM is a kernel virtual machine, a module for linux kernel that exposes /dev/kvm.
+
 Do `lsmod | grep kvm` to see that it is loaded.
+
 qemu is the actual virtualizer that uses kvm.
+
 There is also a libvirt daemon running called libvirtd and can be enabled with `systemctl enable --now libvirtd`.
 
-qemu-kvm        - The main package
-libvirt         - Includes the libvirtd server exporting the virtualization support
-libvirt-clients - This package contains virsh and other client-side utilities
-virtinst        - contains virt-install, virt-clone
-virt-viewer     - Utility to display graphical console for a virtual machine
-virt-manager    - package that has virt-manager utility
+`virsh -c qemu:///system list --all` shows system VMs
 
-# tasks
+`virsh -c qemu:///session list --all` shows my user VM
+
+# Packages
+
+* qemu-kvm - the main package
+* libvirt - Includes the libvirtd server exporting the virtualization support
+* libvirt-clients - This package contains virsh and other client-side utilities
+* virtinst - contains `virt-install`, `virt-clone`
+* virt-viewer - displays graphical console for a virtual machine
+* virt-manager - package that has `virt-manager` utility
+
+# Tasks
 
 ## copy a VM to another machine
 `kvm --version` on both machines to verify match
@@ -22,7 +31,7 @@ compress with:
 `tar --create --verbose --file ./vmdrive.qcow2.tar.gz --gzip --sparse ~/path/to/vmdrive.qcow2`
 copy .xml and .qcow2 files to other machine...
 
-# tools
+# Tools
 
 ## virsh "VIRtualization SHell"
 Uses term "domain" for a virtual machine and its description.
@@ -35,6 +44,6 @@ Uses term "domain" for a virtual machine and its description.
 graphical, just run `virt-manager`
 
 ## virt-install
-if root, disks go to /var/lib/libvirt/images
-if user, disks go to ~/.local/share/libvirt/images
+if root, disks go to `/var/lib/libvirt/images`
+if user, disks go to `~/.local/share/libvirt/images`
 
