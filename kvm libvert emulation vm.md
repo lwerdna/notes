@@ -21,16 +21,20 @@ There is also a libvirt daemon running called libvirtd and can be enabled with `
 
 # Tasks
 
-## copy a VM to another machine
-`kvm --version` on both machines to verify match
-`virsh shutdown vmname`
-`virsh dumpxml vmname > /path/to/vmname.xml`
-`sudo virsh domblklist vmname` to locate qcow2 files
-compare `du -h path_to_qcow` with `ls -l path_to_qcow` ... sparse storage is at play
-compress with:
-`tar --create --verbose --file ./vmdrive.qcow2.tar.gz --gzip --sparse ~/path/to/vmdrive.qcow2`
-copy .xml and .qcow2 files to other machine...
-
+## copy or migrate a VM to another machine
+Verify matching versions on each machine:
+  kvm --version
+  virsh shutdown foo
+  virsh dumpxml foo > /path/to/foo.xml
+  sudo virsh domblklist foo # locate qcow2 files
+  # compare:
+  #   du -h /var/lib/libvirt/images/foo.qcow2 # to
+  #   ls -l /var/lib/libvirt/images/foo.qcow2
+  # compress with:
+  tar --create --verbose --file ~/Downloads/foo.qcow2.tar.gz --gzip --sparse /var/lib/libvirt/images/foo.qcow2
+  # now copy .xml and .qcow2 files to other machine, then:
+  virsh define foo.xml
+  
 # Tools
 
 ## virsh "VIRtualization SHell"
