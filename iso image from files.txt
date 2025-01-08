@@ -1,0 +1,5 @@
+mkisofs -o image.iso /path/to/files
+
+This tool comes from the genisoimage package:
+  dpkg-query --search mkisofs
+  genisoimage: /usr/bin/mkisofs
