@@ -5,8 +5,8 @@
   "elements": [
     {
       "type": "text",
-      "version": 212,
-      "versionNonce": 1365600251,
+      "version": 214,
+      "versionNonce": 1123095327,
       "isDeleted": false,
       "id": "porjcVehiNPCC3RefLEFc",
       "fillStyle": "solid",
@@ -26,7 +26,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1733025172412,
+      "updated": 1736351992728,
       "link": null,
       "locked": false,
       "fontSize": 28,
@@ -37,7 +37,7 @@
       "containerId": null,
       "originalText": "Sort: [2, 2, 3, 4, 4, 1, 3, 2]",
       "lineHeight": 1.2,
-      "baseline": 26
+      "baseline": 27
     },
     {
       "type": "rectangle",
@@ -105,7 +105,7 @@
       "containerId": "fRga-p_j0kX-qTdNyE8Z6",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -173,7 +173,7 @@
       "containerId": "sqjM0M8GRuviXPHTPa67F",
       "originalText": "1",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -241,7 +241,7 @@
       "containerId": "wp4cmPS2dhExcvfr0zW4J",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -309,7 +309,7 @@
       "containerId": "fo1AdKmsMnI2aLD5noL-E",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -381,7 +381,7 @@
       "containerId": "fKkHbS1w83iupiFL7G5GV",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -417,7 +417,7 @@
       "containerId": null,
       "originalText": "possible\nelements:",
       "lineHeight": 1.15,
-      "baseline": 41
+      "baseline": 42
     },
     {
       "type": "rectangle",
@@ -485,7 +485,7 @@
       "containerId": "p3kbDwBxR7Y0xe2V96_If",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -553,7 +553,7 @@
       "containerId": "VqxIy_3x7gS-INpcDl5O_",
       "originalText": "1",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -621,7 +621,7 @@
       "containerId": "1aWf9SbmmyTZqsHAMj-gQ",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -689,7 +689,7 @@
       "containerId": "LgY_50MgJm8PJbApLWBzC",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -765,7 +765,7 @@
       "containerId": "5haDWCjOaCYSIZm56IhWL",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "arrow",
@@ -857,7 +857,7 @@
       "containerId": null,
       "originalText": "count occurences",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -925,7 +925,7 @@
       "containerId": "lnecoscTsaxxl1IMBUVeI",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -993,7 +993,7 @@
       "containerId": "ubieXJ48yU-pXd9rY2LEM",
       "originalText": "1",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -1061,7 +1061,7 @@
       "containerId": "QVRd-TuVd8YxDrEFDU5hB",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -1129,7 +1129,7 @@
       "containerId": "uY4TopzKTulIrIWB1asd2",
       "originalText": "6",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -1205,7 +1205,7 @@
       "containerId": "hMoe8nznhkKnJX1gEF-ye",
       "originalText": "8",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "arrow",
@@ -1297,7 +1297,7 @@
       "containerId": null,
       "originalText": "accumulate",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "arrow",
@@ -1389,7 +1389,7 @@
       "containerId": null,
       "originalText": "right shift",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -1457,7 +1457,7 @@
       "containerId": "IVNa9MptKRCZrzxqJiEa_",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -1525,7 +1525,7 @@
       "containerId": "i6pDLSX5RnPlfMJMjZ56Y",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -1593,7 +1593,7 @@
       "containerId": "EuTc_-IpjOiiOppGnW0ha",
       "originalText": "1",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -1661,7 +1661,7 @@
       "containerId": "HxrFp9SZhtdpS2mHdasJ6",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -1733,7 +1733,7 @@
       "containerId": "lf7q1gRPjHf3d4M37R5yu",
       "originalText": "6",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -1769,7 +1769,7 @@
       "containerId": null,
       "originalText": "histogram:",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
@@ -1805,7 +1805,7 @@
       "containerId": null,
       "originalText": "dest[]:",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -1873,7 +1873,7 @@
       "containerId": "K-FbEj9bU1GnBaLkZz620",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -1941,7 +1941,7 @@
       "containerId": "sj5tooL_d5z4BDOpjueMp",
       "originalText": "1",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -2009,7 +2009,7 @@
       "containerId": "R32rXQ5lGcRxAUX4NF-A5",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -2077,7 +2077,7 @@
       "containerId": "TQBvDGR-QoJbWRpwMXSAs",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -2145,7 +2145,7 @@
       "containerId": "yASrXUYJsqGCQGdJD5CRk",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -2213,7 +2213,7 @@
       "containerId": "0QPWH7ciWWmEZOzvtfhsM",
       "originalText": "5",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -2281,7 +2281,7 @@
       "containerId": "UA3svO7xRnHYIJu425fBY",
       "originalText": "6",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -2349,7 +2349,7 @@
       "containerId": "8caqIya6X_0aPjZ6o2wJn",
       "originalText": "7",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -2444,7 +2444,7 @@
       "containerId": "QL9bjxQk5obuY6WrG-Cbx",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -2642,7 +2642,7 @@
       "containerId": null,
       "originalText": "2 gets placed at 1 == dest[2]",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -2710,7 +2710,7 @@
       "containerId": "1xcsBKT1oPT6Ir84qF7z9",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -2778,7 +2778,7 @@
       "containerId": "F6ALBlCSEqyOZNXe1u7JC",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -2846,7 +2846,7 @@
       "containerId": "BxqZ01YHtX7N6l3ijyzgx",
       "originalText": "1",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -2914,7 +2914,7 @@
       "containerId": "SZ0JGbt_a5JyIey_C0A8q",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -2982,7 +2982,7 @@
       "containerId": "0AIr3SjcEliLBgFBy6ZUX",
       "originalText": "6",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -3077,7 +3077,7 @@
       "containerId": "M4HRYzJvMdlbmIZWDQ85P",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -3145,7 +3145,7 @@
       "containerId": "OrK1uwPNTvd1Vi-fmpq7b",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -3316,7 +3316,7 @@
       "containerId": null,
       "originalText": "2 gets placed at 2 == dest[2]",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -3384,7 +3384,7 @@
       "containerId": "OcSF-floMiO5LSXwzNmmt",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -3452,7 +3452,7 @@
       "containerId": "9dMZdVJZCQYJ8CZ89Ee3x",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -3520,7 +3520,7 @@
       "containerId": "A0U_GVQIrmACOnZCgxzfV",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -3588,7 +3588,7 @@
       "containerId": "8W05I8uxf3x8tfK3KLoZp",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -3656,7 +3656,7 @@
       "containerId": "Pl8aqNnmiWzDEKrm94hED",
       "originalText": "6",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -3751,7 +3751,7 @@
       "containerId": "8ggg0qCBD9i9pEhGLRgVP",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -3819,7 +3819,7 @@
       "containerId": "NJRE6stKak_G3vbJgdyr7",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -3914,7 +3914,7 @@
       "containerId": "HeIJYNl8MKEzgsW9gldSJ",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -4031,7 +4031,7 @@
       "containerId": null,
       "originalText": "3 gets placed at 4 == dest[3]",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -4099,7 +4099,7 @@
       "containerId": "LcJsER0snSekn2TtKEM1r",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -4167,7 +4167,7 @@
       "containerId": "cig7O7w9bpBiaPRl9nWQZ",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -4235,7 +4235,7 @@
       "containerId": "ap9IOLHCuw5eVDQ67VMWM",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -4303,7 +4303,7 @@
       "containerId": "fcQ3OGzkapDjv1fOW8trr",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -4371,7 +4371,7 @@
       "containerId": "IGeDxgmwt3RbK_oz9AGzE",
       "originalText": "6",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -4466,7 +4466,7 @@
       "containerId": "L2NVb9Plzb2MoOCSPIy81",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -4534,7 +4534,7 @@
       "containerId": "uuice0rAF8ofXDF9CvsHN",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -4629,7 +4629,7 @@
       "containerId": "mCgI2xvr-lKFVWHdYLIsw",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -4724,7 +4724,7 @@
       "containerId": "5dU-637L1GLCI-uXz7ew-",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -4787,7 +4787,7 @@
       "containerId": null,
       "originalText": "4 gets placed at 6 == dest[4]",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -4855,7 +4855,7 @@
       "containerId": "Qs-TCJLkltiO1qlb2MuWQ",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -4923,7 +4923,7 @@
       "containerId": "tY2AeC4Rx0ukE0DugpNVl",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -4991,7 +4991,7 @@
       "containerId": "NGUzH06Omhpom3EGDVEDp",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -5059,7 +5059,7 @@
       "containerId": "1jFdFU8ZkLAkzu3935i4V",
       "originalText": "5",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -5127,7 +5127,7 @@
       "containerId": "kQDscuxttQAesZTQNFp9T",
       "originalText": "6",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -5222,7 +5222,7 @@
       "containerId": "g3xbv_IU3ic0fEGJ4W7Nv",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -5290,7 +5290,7 @@
       "containerId": "y4XcCNkt7xo9s2k58Lu1S",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -5385,7 +5385,7 @@
       "containerId": "781q71zCW8FCxuawQD_cc",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -5480,7 +5480,7 @@
       "containerId": "tZN6OE1R1A3b1hZFoRR2v",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -5548,7 +5548,7 @@
       "containerId": "Q40bRFp___gbhhxZRuCWI",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
@@ -5584,7 +5584,7 @@
       "containerId": null,
       "originalText": "4 gets placed at 7 == dest[4]",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -5652,7 +5652,7 @@
       "containerId": "Kq1lCWarqO8O_fFUSFigO",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -5720,7 +5720,7 @@
       "containerId": "GmDRaTtvlPEImX0-tX_S6",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -5788,7 +5788,7 @@
       "containerId": "mB_rymo3374BsinjG-tsp",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -5856,7 +5856,7 @@
       "containerId": "CegrX9zwIS_1jHMXKsVU5",
       "originalText": "5",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -5924,7 +5924,7 @@
       "containerId": "yCBB9C1t6fRRCn83eDnuf",
       "originalText": "7",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -5992,7 +5992,7 @@
       "containerId": "12wj0XrSaYKJpkXE6bjVR",
       "originalText": "1",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -6060,7 +6060,7 @@
       "containerId": "KNnqKIwNI8qDeuuQo18DW",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -6128,7 +6128,7 @@
       "containerId": "Fw3L_AcckxxyLXGSrpHxt",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -6223,7 +6223,7 @@
       "containerId": "QmyZKUX8HMOY63kZUpRoN",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -6318,7 +6318,7 @@
       "containerId": "IlnrfxRCbQdoXEbmEvK9X",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -6386,7 +6386,7 @@
       "containerId": "NgxGVnEmZUUcO9icVuC7t",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
@@ -6422,7 +6422,7 @@
       "containerId": null,
       "originalText": "1 gets placed at 0 == dest[1]",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -6490,7 +6490,7 @@
       "containerId": "-SmGNkKk1fmiZgUUL6bd4",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -6558,7 +6558,7 @@
       "containerId": "TB_akSJpYaeRLRjtbR-Qy",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -6626,7 +6626,7 @@
       "containerId": "rOk-vgY8KiJOOW7GgaKIj",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -6694,7 +6694,7 @@
       "containerId": "9Vb34zNhp5bKey7p9UYLT",
       "originalText": "5",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -6762,7 +6762,7 @@
       "containerId": "67UDPVgAA9Pfal7N6d4vn",
       "originalText": "8",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -6830,7 +6830,7 @@
       "containerId": "M2wmN7qOgNqimWu5p4MPU",
       "originalText": "1",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -6898,7 +6898,7 @@
       "containerId": "_5xe25CpVO34B0V_PLayJ",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -6966,7 +6966,7 @@
       "containerId": "wOBs2IRG-E34Ek_vWqUid",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -7061,7 +7061,7 @@
       "containerId": "hI1IbEh6w_2tj2YRPKNsK",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -7129,7 +7129,7 @@
       "containerId": "x1F_lfCDMWen1VjMTCD26",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -7197,7 +7197,7 @@
       "containerId": "0W0CiKt5YTbaC7PYVGg4p",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -7265,7 +7265,7 @@
       "containerId": "xS9M7vliv2ufmq-n5eS-7",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
@@ -7301,7 +7301,7 @@
       "containerId": null,
       "originalText": "3 gets placed at 5 == dest[3]",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -7369,7 +7369,7 @@
       "containerId": "d-YIZVgOipM-MMGYMNanS",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -7437,7 +7437,7 @@
       "containerId": "oWSiaA0gc3k_8zaF2MgTe",
       "originalText": "1",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -7505,7 +7505,7 @@
       "containerId": "aMImKH3fUPRqcp69LsgGU",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -7573,7 +7573,7 @@
       "containerId": "4DyF20z7H8X0SM7UpTXT4",
       "originalText": "5",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -7641,7 +7641,7 @@
       "containerId": "-RVABkMC1NNFCqGTY2KBU",
       "originalText": "8",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -7709,7 +7709,7 @@
       "containerId": "7b9L17zAK8u3SIf4jDWU1",
       "originalText": "1",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -7777,7 +7777,7 @@
       "containerId": "M81HIDXXCrNoBsJivc2pj",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -7845,7 +7845,7 @@
       "containerId": "sNLMIUkNISvvyOIIB7frj",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -7913,7 +7913,7 @@
       "containerId": "88M4N7cUMvMm6yOf-WUAo",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -7981,7 +7981,7 @@
       "containerId": "VYz0zsUKA67HHaaaJaNfv",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -8049,7 +8049,7 @@
       "containerId": "4hh12lCfaJkrQrLRmGKR_",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -8117,7 +8117,7 @@
       "containerId": "vBJdbtd00Q5QUH4OPU4_9",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -8185,7 +8185,7 @@
       "containerId": "GZyBfgWa5fG8rmj2RZMIL",
       "originalText": "4",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "text",
@@ -8221,7 +8221,7 @@
       "containerId": null,
       "originalText": "2 gets placed at 3 == dest[2]",
       "lineHeight": 1.15,
-      "baseline": 14
+      "baseline": 15
     },
     {
       "type": "rectangle",
@@ -8289,7 +8289,7 @@
       "containerId": "wptCGFMFo7GxYWjO9KFQ6",
       "originalText": "0",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -8357,7 +8357,7 @@
       "containerId": "CTKOvR4n5GWaUUEfA4zU9",
       "originalText": "2",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -8425,7 +8425,7 @@
       "containerId": "78XqN-_WZ09lkqdDYYFgZ",
       "originalText": "3",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -8493,7 +8493,7 @@
       "containerId": "LGix_BN3Y5owoucUfRlCd",
       "originalText": "5",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -8561,7 +8561,7 @@
       "containerId": "BsA5sxvtVjD5TkvOFuNOK",
       "originalText": "8",
       "lineHeight": 1.15,
-      "baseline": 18
+      "baseline": 19
     },
     {
       "type": "text",
