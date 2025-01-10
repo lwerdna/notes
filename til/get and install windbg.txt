@@ -1,0 +1,7 @@
+https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools
+
+Not available alone, but as part of either:
+1. as part of the windows driver kit (WDK)
+2. as part of the windows software development kit (SDK)
+
+You can run the SDK install and choose just to install the debugging tools.

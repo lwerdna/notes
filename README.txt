@@ -6,3 +6,5 @@
 ./musings - thoughts
 
 Projects with multiple edits and revisions get promoted to the workbench repository [1].
+
+1. https://github.com/lwerdna/workbench/

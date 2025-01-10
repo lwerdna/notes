@@ -1,0 +1,16 @@
+Install Ultimate Geography (UG)
+  See "Getting Started" at:
+  https://github.com/anki-geo/ultimate-geography/blob/master/README.md
+
+  UG is installed via CrowdAnki:
+  https://ankiweb.net/shared/info/1788670778
+
+See "Custom Study" for ways to filter cards from this deck into a custom deck of your own.
+
+I used this filter for middle east country identification:
+  tag:UG::Middle_East ("card:Map - Country" OR "card:Country - Map")
+
+And since Middle_East is a subset of Asia in UG, I used this for Asian countries:
+  tag:UG::Asia -tag:UG::Middle_East ("card:Map - Country" OR "card:Country - Map")
+
+Then Edit -> Create Filtered Deck

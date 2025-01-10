@@ -1,0 +1,5 @@
+pip install ansi2html
+
+https://github.com/pycontribs/ansi2html
+
+git diff --color=always /tmp/a.txt /tmp/b.txt | ansi2html > /tmp/out.html
