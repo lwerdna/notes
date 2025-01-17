@@ -214,3 +214,49 @@ int main(int ac, char **av)
 
 	random_numbers();
 }
+
+void read_file_to_buffer(char *fpath, void **data, uint32_t *data_len)
+{
+    FILE *file;
+    char *buffer;
+    long file_size;
+
+    printf("opening %s\n", fpath);
+    file = fopen(fpath, "rb");
+    if (file == NULL) {
+        perror("Error opening file");
+        return;
+    }
+
+    fseek(file, 0, SEEK_END);
+    file_size = ftell(file);
+    rewind(file);
+
+    // Allocate memory for the buffer
+    printf("allocating %ld bytes\n", file_size);
+    buffer = (char *)malloc(file_size);
+    if (buffer == NULL) {
+        perror("Error allocating memory");
+        fclose(file);
+        return;
+    }
+
+    // Read the file into the buffer
+    printf("reading %ld bytes\n", file_size);
+    size_t bytes_read = fread(buffer, 1, file_size, file);
+    if (bytes_read != file_size) {
+        perror("Error reading file");
+        fclose(file);
+        free(buffer);
+        return;
+    }
+
+    // Close the file and free the memory
+    printf("closing\n");
+    fclose(file);
+
+    printf("returning %p\n", buffer);
+    *data = buffer;
+    *data_len = file_size;
+}
+

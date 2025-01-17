@@ -1,0 +1,76 @@
+CREATED: 2024-12-10
+
+".NET Core" and ".NET Framework" are implementations/platforms that implement a .NET Standard (API).
+
+Implementations (aka: Frameworks) (aka: platforms):
+  Assembly based:
+    - .NET Framework
+  NuGet Package-based target frameworks:
+    - .NET 5+
+    - .NET Core (Cross-Platform)
+    - .NET Standard
+
+.NET 5+
+.NET Core is an implementation/framework that's cross-platform. (better)
+.NET Framework is older, more traditional, and for Windows only.
+
+An app can target a standard, or it can target an implementation.
+
+The CLR is the common language runtime and is not necessarily updated every time the .NET Framework is updated.
+
+Framework CLR
+2.0       2.0
+3.0       2.0
+3.5       2.0
+
+These implementations 
+
+Standards
+  .NET before .NET 5+ used versioned standards
+    Is a specification that names a set of available API's, an interface, but provides no implementation.
+    Predictable tradeoff: targetting higher standard gets you more APIs, but reduces distributability as only platforms with at least the higher standard can run your program.
+    Standards were: 1.0, 1.2, 1.3, 1.4, 1.5, 1.6, 2.0, 2.1
+    Superceded portable class libraries (PCLs).
+
+.NET 9.0 (Nov 2024)
+.NET 8.0 (Nov 2023)
+.NET 7.0 (Nov 2022)
+.NET 6.0 (Nov 2021)
+.NET 5.0 (Nov 2020)
+~~~ "CORE" is open source, cross platform, runtime is coreclr.dll ~~~
+.NET Core 3.0 (Sep 2019)
+.NET Core 2.2 (Dec 2018)
+.NET Core 2.1 (May 2018)
+.NET Core 2.0 (Aug 2017)
+.NET Core 1.0 (Jun 2016)
+~~~ framework has runtime clr.dll ~~~
+.NET Framework 4.8.1 (Aug 2022)
+.NET Framework 4.8   (Apr 2019)
+.NET Framework 4.7.2 (Apr 2018)
+.NET Framework 4.7   (Apr 2017)
+.NET Framework 4.6.2 (Aug 2016)
+.NET Framework 4.6   (Jul 2015)
+.NET Framework 4.5.2 (May 2014)
+.NET Framework 4.5.1 (Oct 2013)
+.NET Framework 4.5   (Aug 2012)
+.NET Framework 4.0   (Apr 2010)
+.NET Framework 3.0   (Nov 2006)
+.NET Framework 2.0   (Oct 2005)
+.NET Framework 1.0   (Jan 2002)
+.NET Framework was initially a managed code runtime (CLR), programming language (C#), and class library
+
+
+Map "Standard" to "Implementation" to "Version" with [2]
+
+CIL - Common Intermediate Language
+CLI - Target Language Infrastructure has 5 aspects: https://en.wikipedia.org/wiki/Common_Language_Infrastructure
+CLR - Common Language Runtime
+TFM (Target Framework Moniker) like "net5.0"
+MSCorLib - Microsoft Common Object Runtime Library
+MSCorLib - Multilanguage Standard Common Object Runtime Library (after ECMA)
+
+1. https://learn.microsoft.com/en-us/dotnet/standard/net-standard
+2. https://dotnet.microsoft.com/en-us/platform/dotnet-standard
+3. https://learn.microsoft.com/en-us/dotnet/standard/frameworks
+4. https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-5
+5. https://en.wikipedia.org/wiki/.NET_Framework_version_history
