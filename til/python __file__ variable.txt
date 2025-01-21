@@ -1,0 +1,13 @@
+What is __file__?
+
+https://docs.python.org/3/reference/datamodel.html
+
+example           value              invoked from
+`./foo.py`        "/path/to/foo.py"  current directory
+                  "/path/to/./foo.py called with ./foo.py
+`/path/to/foo.py` "/path/to/foo.py"  different directory
+`foo.py`          "/path/to/foo.py"  path
+
+If foo.py is a symbolic link, __file__ will be the source side.
+In other words, it will not resolve the link.
+
