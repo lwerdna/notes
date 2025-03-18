@@ -5,3 +5,7 @@ host lookup (reverse DNS), no packets, scan:
 ping scan, no ports
 
   nmap -sn 192.168.1.1/24
+
+only hosts with specified port open
+
+  nmap -p 31337 192.168.1.1/24 --open

@@ -1,0 +1,15 @@
+Get packages to offline form with:
+
+  pip download SomePackage
+
+Install with:
+
+  pip install --no-index --find-links /path/to/packages SomePackage
+
+And if all your junk is in this directory, it will look like:
+
+  pip install --no-index --find-links . tlslite-ng
+
+Install directly from .tar.gz:
+
+  pip install MyPackage.tar.gz

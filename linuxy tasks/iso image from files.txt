@@ -1,0 +1,17 @@
+mkisofs -o image.iso /path/to/files
+
+This tool comes from the genisoimage package:
+  dpkg-query --search mkisofs
+  genisoimage: /usr/bin/mkisofs
+
+It also contains these others tools:
+  dpkg --listfiles genisoimage
+
+  /usr/bin/devdump
+  /usr/bin/dirsplit
+  /usr/bin/genisoimage
+  /usr/bin/geteltorito
+  /usr/bin/isodump
+  /usr/bin/isoinfo
+  /usr/bin/isovfy
+  /usr/bin/mkzftree

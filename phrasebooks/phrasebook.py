@@ -573,7 +573,7 @@ with open('/path/to/config.json') as fp:
     config = json.load(fp)
 
 ###############################################################################
-## overloading
+## overloading and dunder methods
 ###############################################################################
 
 # see "3.3.7 Emulating container types" at:
@@ -601,25 +601,33 @@ with open('/path/to/config.json') as fp:
 # ^           object.__xor__(self, other)
 # |           object.__or__(self, other)
 
-###############################################################################
-## *args, *kwargs
-###############################################################################
+#### ARGS AND KWARGS
+
+def foo(*args, **kwargs):
+    pass
+# calling foo(1, x=2) is same as foo((1,), {'x':2})
+
 def test0(*foo):
     print('test0:', type(foo), foo)
+test0('A', 'B', 'C')
+# test0: <class 'tuple'> ('A', 'B', 'C')
 
 def test1(**bar):
     print('test1:', type(bar), bar)
-
-test0('A', 'B', 'C')
 test1(first='A', second='B', third='C')
-
-# $ ./go.py
-# test0: <class 'tuple'> ('A', 'B', 'C')
 # test1: <class 'dict'> {'first': 'A', 'second': 'B', 'third': 'C'}
 
-###############################################################################
-## OOP, superclass
-###############################################################################
+#### USEFUL CONVERSIONS
+
+# bytes <-> hex strings
+foo.hex()                                  # b'\xAA' -> 'AA'
+bytes.fromhex('AA')                        # 'AA' -> b'\xAA'
+
+# bytes <-> ints
+(65536).to_bytes(4, 'big')                 # 65536 -> b'\x00\x01\x00\x00'
+int.from_bytes(b'\x00\x01\x00\x00', 'big') # b'\x00\x01\x00\x00' -> 65536
+
+#### OOP, SUPERCLASS
 class DerivedClass(BaseClass):
     def __init__(self, a, b, c):
         super().__init__(a, b, c)
