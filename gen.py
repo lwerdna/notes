@@ -41,12 +41,14 @@ print('''
 ''')
 
 for dname in dir2fpaths:
-    print(f'<h3>{dname}</h3>')
+    print(f'<b>{dname}:</b>')
 
     for fpath in dir2fpaths[dname]:
         _, fname = os.path.split(fpath)
         basename, ext = os.path.splitext(fname)
         print(f'<a href="{fpath}">{basename}</a> | ')
+
+    print('<br>')
 
 print('''
   </body>
