@@ -53,8 +53,12 @@ def qt_breakpoint():
 ## file system stuff
 ###############################################################################
 
-pics = filter(lambda x: x.endswith('.jpg'), os.listdir('.'))
+# using os.listdir()
+jpgs = filter(lambda x: x.endswith('.jpg'), os.listdir('.'))
+jpgs = [x for x in os.listdir('.') if x.endswith('.jpg')]
+txts = [x for x in os.listdir('.') if x.endswith('.txt')]
 
+# using os.walk()
 def dirtree(root):
     result = []
     for root, dirs, fnames in os.walk(root):
@@ -66,9 +70,18 @@ def dirtree(root):
             result.append(fpath)
     return result
 
-def list_text_files_current_dir():
-    return [x for x in os.listdir('.') if x.endswith('.txt')]
+def delete_subtitles():
+    for folder, subfolders, files in os.walk('SomePath'):
+        for filename in file:
+            if filename.endswith('.srt'):
+                os.unlink(os.path.join(folder,filename))
 
+def get_files(ext=''):
+    return sum([[os.path.join(r, f) for f in
+        [f for f in fs if f.endswith(ext)]]
+        for (r,d,fs) in os.walk('.')], [])
+
+# using glob.glob()
 def list_text_files_current_dir():
     import glob
     # will include paths if path provided
@@ -76,11 +89,6 @@ def list_text_files_current_dir():
     # ./*.txt              -> everything prefixed with './'
     # /Users/andrewl/*.txt -> everything prefixed with '/Users/andrewl/'
     return glob.glob('*.txt')
-
-def get_files(ext=''):
-    return sum([[os.path.join(r, f) for f in
-        [f for f in fs if f.endswith(ext)]]
-        for (r,d,fs) in os.walk('.')], [])
 
 def replace_in_file():
     fp = open('namegen.py')
@@ -107,12 +115,6 @@ def genFileName(ext='', nChars=8):
     for i in range(nChars):
         fname += lookup[random.randint(0,len(lookup)-1)]
     return fname + ext
-
-
-for folder, subfolders, files in os.walk('SomePath'):
-  for filename in file:
-    if filename.endswith('.srt'):
-        os.unlink(os.path.join(folder,filename))
 
 ###############################################################################
 ## calling other processes
