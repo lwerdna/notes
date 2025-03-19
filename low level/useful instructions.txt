@@ -1,21 +1,34 @@
 x86, x86-64
-  nop          90
-  ret          c3
+    90				; nop
+    c3				; ret
+    cc				; bkpt or int3
+    ; self jump
+    eb fe			; here: jmp here
 
-ARM (little-end)
-  nop          00 f0 20 e3
-  mov r0, #0   00 00 a0 e3
-  bx lr        1e ff 2f e1
+A32 (little-end)
+    00 f0 20 e3		; nop
+    70 00 20 e1		; bkpt #0
+    ; return 0
+    00 00 a0 e3		; mov r0, #0
+    1e ff 2f e1		; bx lr
+    ; induce sigsev
+    00 00 a0 e3		; mov r0, #0
+    00 00 90 e5		; ldr r0, [r0]
 
-ARMv8
-  nop          1f 20 03 d5
+A64
+    1f 20 03 d5		; nop
+    00 00 20 d4		; brk #0
+    ; induce sigsev
+    00 00 80 d2		; mov x0, #0
+    00 00 40 f9		; ldr x0, [x0]
 
 Thumb
-  nop          00 bf
+    00 bf			; nop
+    00 be			; bkpt #0
  
 Hexagon
-  nop          00 c0 00 7f
+    00 c0 00 7f		; nop
 
 Mips
-  nop          00 00 00 00
+    00 00 00 00		; nop
 
