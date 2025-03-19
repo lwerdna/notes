@@ -1,21 +1,603 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 501 440" width="501" height="440">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 501 440"
+   width="501"
+   height="440"
+   id="svg182"
+   sodipodi:docname="pcap vs pcapng.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview184"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     inkscape:zoom="1.35"
+     inkscape:cx="250.74074"
+     inkscape:cy="220"
+     inkscape:window-width="1920"
+     inkscape:window-height="1151"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg182" />
   <!-- svg-source:excalidraw -->
-  
-  <defs>
-    <style class="style-fonts">
+  <defs
+     id="defs4">
+    <style
+       class="style-fonts"
+       id="style2">
       @font-face {
-        font-family: "Virgil";
-        src: url("https://file%2B.vscode-resource.vscode-cdn.net/home/andrewl/.vscode/extensions/pomdtr.excalidraw-editor-3.7.4/public//dist/excalidraw-assets/Virgil.woff2");
+        font-family: &quot;Virgil&quot;;
+        src: url(&quot;https://file%2B.vscode-resource.vscode-cdn.net/home/andrewl/.vscode/extensions/pomdtr.excalidraw-editor-3.7.4/public//dist/excalidraw-assets/Virgil.woff2&quot;);
       }
       @font-face {
-        font-family: "Cascadia";
-        src: url("https://file%2B.vscode-resource.vscode-cdn.net/home/andrewl/.vscode/extensions/pomdtr.excalidraw-editor-3.7.4/public//dist/excalidraw-assets/Cascadia.woff2");
+        font-family: &quot;Cascadia&quot;;
+        src: url(&quot;https://file%2B.vscode-resource.vscode-cdn.net/home/andrewl/.vscode/extensions/pomdtr.excalidraw-editor-3.7.4/public//dist/excalidraw-assets/Cascadia.woff2&quot;);
       }
       @font-face {
-        font-family: "Assistant";
-        src: url("https://file%2B.vscode-resource.vscode-cdn.net/home/andrewl/.vscode/extensions/pomdtr.excalidraw-editor-3.7.4/public//dist/excalidraw-assets/Assistant-Regular.woff2");
+        font-family: &quot;Assistant&quot;;
+        src: url(&quot;https://file%2B.vscode-resource.vscode-cdn.net/home/andrewl/.vscode/extensions/pomdtr.excalidraw-editor-3.7.4/public//dist/excalidraw-assets/Assistant-Regular.woff2&quot;);
       }
     </style>
-    
   </defs>
-  <rect x="0" y="0" width="501" height="440" fill="#ffffff"></rect><g stroke-linecap="round" transform="translate(11 50) rotate(0 100 20)"><path d="M0 0 L200 0 L200 40 L0 40" stroke="none" stroke-width="0" fill="#ffc9c9"></path><path d="M0 0 C67.17 0, 134.34 0, 200 0 M0 0 C73.45 0, 146.9 0, 200 0 M200 0 C200 14.54, 200 29.08, 200 40 M200 0 C200 8.94, 200 17.87, 200 40 M200 40 C125.39 40, 50.77 40, 0 40 M200 40 C153.37 40, 106.75 40, 0 40 M0 40 C0 24.78, 0 9.56, 0 0 M0 40 C0 30.09, 0 20.19, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(62.515625 60.79999999999998) rotate(0 48.484375 9.200000000000003)"><text x="48.484375" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">global header</text></g><g transform="translate(10 14) rotate(0 24.462890625 11.5)"><text x="0" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="20px" fill="#1e1e1e" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">pcap:</text></g><g stroke-linecap="round" transform="translate(11 90) rotate(0 100 20)"><path d="M0 0 L200 0 L200 40 L0 40" stroke="none" stroke-width="0" fill="#69db7c"></path><path d="M0 0 C57.65 0, 115.3 0, 200 0 M0 0 C66.01 0, 132.02 0, 200 0 M200 0 C200 14.12, 200 28.24, 200 40 M200 0 C200 14.83, 200 29.66, 200 40 M200 40 C122.5 40, 45 40, 0 40 M200 40 C148.02 40, 96.04 40, 0 40 M0 40 C0 26.64, 0 13.29, 0 0 M0 40 C0 28.92, 0 17.84, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(54.51953125 100.79999999999998) rotate(0 56.48046875 9.200000000000003)"><text x="56.48046875" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">record header 1</text></g><g stroke-linecap="round" transform="translate(11 130) rotate(0 100 20)"><path d="M0 0 L200 0 L200 40 L0 40" stroke="none" stroke-width="0" fill="#b2f2bb"></path><path d="M0 0 C75.46 0, 150.91 0, 200 0 M0 0 C59.62 0, 119.23 0, 200 0 M200 0 C200 9.7, 200 19.4, 200 40 M200 0 C200 13.93, 200 27.86, 200 40 M200 40 C121.77 40, 43.54 40, 0 40 M200 40 C148.96 40, 97.92 40, 0 40 M0 40 C0 27.28, 0 14.55, 0 0 M0 40 C0 31.92, 0 23.83, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(62.96484375 140.8) rotate(0 48.03515625 9.199999999999989)"><text x="48.03515625" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">packet data 1</text></g><g stroke-linecap="round" transform="translate(11 170) rotate(0 100 20)"><path d="M0 0 L200 0 L200 40 L0 40" stroke="none" stroke-width="0" fill="#69db7c"></path><path d="M0 0 C49.85 0, 99.71 0, 200 0 M0 0 C53.77 0, 107.54 0, 200 0 M200 0 C200 10.04, 200 20.09, 200 40 M200 0 C200 10.32, 200 20.65, 200 40 M200 40 C131 40, 62.01 40, 0 40 M200 40 C140.98 40, 81.96 40, 0 40 M0 40 C0 27.88, 0 15.76, 0 0 M0 40 C0 26.22, 0 12.44, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(54.51953125 180.8) rotate(0 56.48046875 9.199999999999989)"><text x="56.48046875" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">record header 2</text></g><g stroke-linecap="round" transform="translate(11 210) rotate(0 100 20)"><path d="M0 0 L200 0 L200 40 L0 40" stroke="none" stroke-width="0" fill="#b2f2bb"></path><path d="M0 0 C60.01 0, 120.02 0, 200 0 M0 0 C70.96 0, 141.91 0, 200 0 M200 0 C200 12.86, 200 25.73, 200 40 M200 0 C200 14.73, 200 29.46, 200 40 M200 40 C125.87 40, 51.74 40, 0 40 M200 40 C152.87 40, 105.75 40, 0 40 M0 40 C0 26.11, 0 12.22, 0 0 M0 40 C0 24.13, 0 8.27, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(62.96484375 220.8) rotate(0 48.03515625 9.199999999999989)"><text x="48.03515625" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">packet data 2</text></g><g stroke-linecap="round" transform="translate(11 310) rotate(0 100 20)"><path d="M0 0 L200 0 L200 40 L0 40" stroke="none" stroke-width="0" fill="#69db7c"></path><path d="M0 0 C61.66 0, 123.33 0, 200 0 M0 0 C55.28 0, 110.57 0, 200 0 M200 0 C200 13.81, 200 27.61, 200 40 M200 0 C200 15.58, 200 31.16, 200 40 M200 40 C138.38 40, 76.77 40, 0 40 M200 40 C122.52 40, 45.04 40, 0 40 M0 40 C0 25.76, 0 11.52, 0 0 M0 40 C0 28.36, 0 16.73, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(54.51953125 320.8) rotate(0 56.48046875 9.199999999999989)"><text x="56.48046875" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">record header n</text></g><g stroke-linecap="round" transform="translate(11 350) rotate(0 100 20)"><path d="M0 0 L200 0 L200 40 L0 40" stroke="none" stroke-width="0" fill="#b2f2bb"></path><path d="M0 0 C69.51 0, 139.03 0, 200 0 M0 0 C67.41 0, 134.82 0, 200 0 M200 0 C200 8.14, 200 16.28, 200 40 M200 0 C200 12.56, 200 25.13, 200 40 M200 40 C125.02 40, 50.04 40, 0 40 M200 40 C155.03 40, 110.06 40, 0 40 M0 40 C0 29.67, 0 19.34, 0 0 M0 40 C0 24.03, 0 8.06, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(62.96484375 360.8) rotate(0 48.03515625 9.200000000000017)"><text x="48.03515625" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">packet data n</text></g><g stroke-linecap="round"><g transform="translate(111 250) rotate(0 0 30)"><path d="M0 0 C0 12.46, 0 24.92, 0 60" stroke="#1e1e1e" stroke-width="1.5" fill="none" stroke-dasharray="1.5 7"></path></g></g><mask></mask><g transform="translate(251 10) rotate(0 35.5859375 11.5)"><text x="0" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="20px" fill="#1e1e1e" text-anchor="start" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">pcapng:</text></g><g stroke-linecap="round" transform="translate(251 50) rotate(0 120 20)"><path d="M0 0 L240 0 L240 40 L0 40" stroke="none" stroke-width="0" fill="#ffc9c9"></path><path d="M0 0 C81.21 0, 162.43 0, 240 0 M0 0 C75.62 0, 151.25 0, 240 0 M240 0 C240 9.82, 240 19.64, 240 40 M240 0 C240 13.22, 240 26.44, 240 40 M240 40 C163.68 40, 87.36 40, 0 40 M240 40 C158.81 40, 77.62 40, 0 40 M0 40 C0 25.29, 0 10.57, 0 0 M0 40 C0 28.04, 0 16.07, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(294.0703125 60.79999999999998) rotate(0 76.9296875 9.200000000000003)"><text x="76.9296875" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Section Header Block</text></g><g stroke-linecap="round" transform="translate(251 90) rotate(0 120 20)"><path d="M0 0 L240 0 L240 40 L0 40" stroke="none" stroke-width="0" fill="#ffc9c9"></path><path d="M0 0 C52.52 0, 105.04 0, 240 0 M0 0 C62.22 0, 124.43 0, 240 0 M240 0 C240 9.47, 240 18.93, 240 40 M240 0 C240 13.42, 240 26.84, 240 40 M240 40 C152.04 40, 64.07 40, 0 40 M240 40 C173.54 40, 107.07 40, 0 40 M0 40 C0 24.17, 0 8.34, 0 0 M0 40 C0 31.37, 0 22.74, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(275.84765625 100.79999999999998) rotate(0 95.15234375 9.200000000000003)"><text x="95.15234375" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Interface Description Block</text></g><g stroke-linecap="round" transform="translate(251 130) rotate(0 120 40)"><path d="M0 0 L240 0 L240 80 L0 80" stroke="none" stroke-width="0" fill="#69db7c"></path><path d="M0 0 C67.7 0, 135.41 0, 240 0 M0 0 C83.31 0, 166.61 0, 240 0 M240 0 C240 26.58, 240 53.17, 240 80 M240 0 C240 22.3, 240 44.6, 240 80 M240 80 C163.45 80, 86.9 80, 0 80 M240 80 C147.47 80, 54.94 80, 0 80 M0 80 C0 54.91, 0 29.81, 0 0 M0 80 C0 54.21, 0 28.42, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(286.50390625 135) rotate(0 84.49609375 9.199999999999989)"><text x="84.49609375" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Enhanced Packet Block</text></g><g stroke-linecap="round" transform="translate(271 170) rotate(0 100 20)"><path d="M0 0 L200 0 L200 40 L0 40" stroke="none" stroke-width="0" fill="#b2f2bb"></path><path d="M0 0 C71.56 0, 143.13 0, 200 0 M0 0 C43.73 0, 87.46 0, 200 0 M200 0 C200 9.81, 200 19.61, 200 40 M200 0 C200 11.16, 200 22.32, 200 40 M200 40 C126.1 40, 52.21 40, 0 40 M200 40 C123.08 40, 46.16 40, 0 40 M0 40 C0 25.47, 0 10.94, 0 0 M0 40 C0 31.03, 0 22.07, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(322.96484375 180.8) rotate(0 48.03515625 9.199999999999989)"><text x="48.03515625" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">packet data 1</text></g><g stroke-linecap="round" transform="translate(251 210) rotate(0 120 40)"><path d="M0 0 L240 0 L240 80 L0 80" stroke="none" stroke-width="0" fill="#69db7c"></path><path d="M0 0 C91.46 0, 182.93 0, 240 0 M0 0 C56.76 0, 113.52 0, 240 0 M240 0 C240 23.76, 240 47.53, 240 80 M240 0 C240 26.56, 240 53.11, 240 80 M240 80 C171.16 80, 102.32 80, 0 80 M240 80 C187 80, 134.01 80, 0 80 M0 80 C0 58.64, 0 37.29, 0 0 M0 80 C0 53.01, 0 26.03, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(286.50390625 215) rotate(0 84.49609375 9.199999999999989)"><text x="84.49609375" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Enhanced Packet Block</text></g><g stroke-linecap="round" transform="translate(271 250) rotate(0 100 20)"><path d="M0 0 L200 0 L200 40 L0 40" stroke="none" stroke-width="0" fill="#b2f2bb"></path><path d="M0 0 C52.15 0, 104.29 0, 200 0 M0 0 C52.86 0, 105.73 0, 200 0 M200 0 C200 12.82, 200 25.65, 200 40 M200 0 C200 12.61, 200 25.22, 200 40 M200 40 C136.4 40, 72.79 40, 0 40 M200 40 C133.16 40, 66.32 40, 0 40 M0 40 C0 25.85, 0 11.71, 0 0 M0 40 C0 29.02, 0 18.05, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(322.96484375 260.8) rotate(0 48.03515625 9.199999999999989)"><text x="48.03515625" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">packet data 2</text></g><g stroke-linecap="round"><g transform="translate(371 290) rotate(0 0 30)"><path d="M0 0 C0 16.99, 0 33.99, 0 60" stroke="#1e1e1e" stroke-width="1.5" fill="none" stroke-dasharray="1.5 7"></path></g></g><mask></mask><g stroke-linecap="round" transform="translate(251 350) rotate(0 120 40)"><path d="M0 0 L240 0 L240 80 L0 80" stroke="none" stroke-width="0" fill="#69db7c"></path><path d="M0 0 C89.69 0, 179.39 0, 240 0 M0 0 C59.4 0, 118.8 0, 240 0 M240 0 C240 16.47, 240 32.94, 240 80 M240 0 C240 26.33, 240 52.66, 240 80 M240 80 C148.71 80, 57.41 80, 0 80 M240 80 C156.27 80, 72.54 80, 0 80 M0 80 C0 63.09, 0 46.18, 0 0 M0 80 C0 55.39, 0 30.79, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(286.50390625 355) rotate(0 84.49609375 9.199999999999989)"><text x="84.49609375" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">Enhanced Packet Block</text></g><g stroke-linecap="round" transform="translate(271 390) rotate(0 100 20)"><path d="M0 0 L200 0 L200 40 L0 40" stroke="none" stroke-width="0" fill="#b2f2bb"></path><path d="M0 0 C53.71 0, 107.42 0, 200 0 M0 0 C61.35 0, 122.7 0, 200 0 M200 0 C200 11.12, 200 22.24, 200 40 M200 0 C200 10.76, 200 21.51, 200 40 M200 40 C126.88 40, 53.77 40, 0 40 M200 40 C146.25 40, 92.5 40, 0 40 M0 40 C0 28.57, 0 17.13, 0 0 M0 40 C0 29.21, 0 18.43, 0 0" stroke="#1e1e1e" stroke-width="1" fill="none"></path></g><g transform="translate(322.96484375 400.79999999999995) rotate(0 48.03515625 9.199999999999989)"><text x="48.03515625" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="16px" fill="#1e1e1e" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">packet data n</text></g></svg>
+  <rect
+     x="0"
+     y="0"
+     width="501"
+     height="440"
+     fill="#ffffff"
+     id="rect6" />
+  <g
+     stroke-linecap="round"
+     transform="translate(11 50) rotate(0 100 20)"
+     id="g12">
+    <path
+       d="M0 0 L200 0 L200 40 L0 40"
+       stroke="none"
+       stroke-width="0"
+       fill="#ffc9c9"
+       id="path8" />
+    <path
+       d="M0 0 C67.17 0, 134.34 0, 200 0 M0 0 C73.45 0, 146.9 0, 200 0 M200 0 C200 14.54, 200 29.08, 200 40 M200 0 C200 8.94, 200 17.87, 200 40 M200 40 C125.39 40, 50.77 40, 0 40 M200 40 C153.37 40, 106.75 40, 0 40 M0 40 C0 24.78, 0 9.56, 0 0 M0 40 C0 30.09, 0 20.19, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path10" />
+  </g>
+  <g
+     transform="translate(62.515625 60.79999999999998) rotate(0 48.484375 9.200000000000003)"
+     id="g16">
+    <text
+       x="48.484375"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text14">global header</text>
+  </g>
+  <g
+     transform="translate(10 14) rotate(0 24.462890625 11.5)"
+     id="g20">
+    <text
+       x="0"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="20px"
+       fill="#1e1e1e"
+       text-anchor="start"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text18">pcap:</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     transform="translate(11 90) rotate(0 100 20)"
+     id="g26">
+    <path
+       d="M0 0 L200 0 L200 40 L0 40"
+       stroke="none"
+       stroke-width="0"
+       fill="#69db7c"
+       id="path22" />
+    <path
+       d="M0 0 C57.65 0, 115.3 0, 200 0 M0 0 C66.01 0, 132.02 0, 200 0 M200 0 C200 14.12, 200 28.24, 200 40 M200 0 C200 14.83, 200 29.66, 200 40 M200 40 C122.5 40, 45 40, 0 40 M200 40 C148.02 40, 96.04 40, 0 40 M0 40 C0 26.64, 0 13.29, 0 0 M0 40 C0 28.92, 0 17.84, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path24" />
+  </g>
+  <g
+     transform="translate(54.51953125 100.79999999999998) rotate(0 56.48046875 9.200000000000003)"
+     id="g30">
+    <text
+       x="56.48046875"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text28">record header 1</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     transform="translate(11 130) rotate(0 100 20)"
+     id="g36">
+    <path
+       d="M0 0 L200 0 L200 40 L0 40"
+       stroke="none"
+       stroke-width="0"
+       fill="#b2f2bb"
+       id="path32" />
+    <path
+       d="M0 0 C75.46 0, 150.91 0, 200 0 M0 0 C59.62 0, 119.23 0, 200 0 M200 0 C200 9.7, 200 19.4, 200 40 M200 0 C200 13.93, 200 27.86, 200 40 M200 40 C121.77 40, 43.54 40, 0 40 M200 40 C148.96 40, 97.92 40, 0 40 M0 40 C0 27.28, 0 14.55, 0 0 M0 40 C0 31.92, 0 23.83, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path34" />
+  </g>
+  <g
+     transform="translate(62.96484375 140.8) rotate(0 48.03515625 9.199999999999989)"
+     id="g40">
+    <text
+       x="48.03515625"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text38">packet data 1</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     transform="translate(11 170) rotate(0 100 20)"
+     id="g46">
+    <path
+       d="M0 0 L200 0 L200 40 L0 40"
+       stroke="none"
+       stroke-width="0"
+       fill="#69db7c"
+       id="path42" />
+    <path
+       d="M0 0 C49.85 0, 99.71 0, 200 0 M0 0 C53.77 0, 107.54 0, 200 0 M200 0 C200 10.04, 200 20.09, 200 40 M200 0 C200 10.32, 200 20.65, 200 40 M200 40 C131 40, 62.01 40, 0 40 M200 40 C140.98 40, 81.96 40, 0 40 M0 40 C0 27.88, 0 15.76, 0 0 M0 40 C0 26.22, 0 12.44, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path44" />
+  </g>
+  <g
+     transform="translate(54.51953125 180.8) rotate(0 56.48046875 9.199999999999989)"
+     id="g50">
+    <text
+       x="56.48046875"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text48">record header 2</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     transform="translate(11 210) rotate(0 100 20)"
+     id="g56">
+    <path
+       d="M0 0 L200 0 L200 40 L0 40"
+       stroke="none"
+       stroke-width="0"
+       fill="#b2f2bb"
+       id="path52" />
+    <path
+       d="M0 0 C60.01 0, 120.02 0, 200 0 M0 0 C70.96 0, 141.91 0, 200 0 M200 0 C200 12.86, 200 25.73, 200 40 M200 0 C200 14.73, 200 29.46, 200 40 M200 40 C125.87 40, 51.74 40, 0 40 M200 40 C152.87 40, 105.75 40, 0 40 M0 40 C0 26.11, 0 12.22, 0 0 M0 40 C0 24.13, 0 8.27, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path54" />
+  </g>
+  <g
+     transform="translate(62.96484375 220.8) rotate(0 48.03515625 9.199999999999989)"
+     id="g60">
+    <text
+       x="48.03515625"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text58">packet data 2</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     transform="translate(11 310) rotate(0 100 20)"
+     id="g66">
+    <path
+       d="M0 0 L200 0 L200 40 L0 40"
+       stroke="none"
+       stroke-width="0"
+       fill="#69db7c"
+       id="path62" />
+    <path
+       d="M0 0 C61.66 0, 123.33 0, 200 0 M0 0 C55.28 0, 110.57 0, 200 0 M200 0 C200 13.81, 200 27.61, 200 40 M200 0 C200 15.58, 200 31.16, 200 40 M200 40 C138.38 40, 76.77 40, 0 40 M200 40 C122.52 40, 45.04 40, 0 40 M0 40 C0 25.76, 0 11.52, 0 0 M0 40 C0 28.36, 0 16.73, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path64" />
+  </g>
+  <g
+     transform="translate(54.51953125 320.8) rotate(0 56.48046875 9.199999999999989)"
+     id="g70">
+    <text
+       x="56.48046875"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text68">record header n</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     transform="translate(11 350) rotate(0 100 20)"
+     id="g76">
+    <path
+       d="M0 0 L200 0 L200 40 L0 40"
+       stroke="none"
+       stroke-width="0"
+       fill="#b2f2bb"
+       id="path72" />
+    <path
+       d="M0 0 C69.51 0, 139.03 0, 200 0 M0 0 C67.41 0, 134.82 0, 200 0 M200 0 C200 8.14, 200 16.28, 200 40 M200 0 C200 12.56, 200 25.13, 200 40 M200 40 C125.02 40, 50.04 40, 0 40 M200 40 C155.03 40, 110.06 40, 0 40 M0 40 C0 29.67, 0 19.34, 0 0 M0 40 C0 24.03, 0 8.06, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path74" />
+  </g>
+  <g
+     transform="translate(62.96484375 360.8) rotate(0 48.03515625 9.200000000000017)"
+     id="g80">
+    <text
+       x="48.03515625"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text78">packet data n</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     id="g86">
+    <g
+       transform="translate(111 250) rotate(0 0 30)"
+       id="g84">
+      <path
+         d="M0 0 C0 12.46, 0 24.92, 0 60"
+         stroke="#1e1e1e"
+         stroke-width="1.5"
+         fill="none"
+         stroke-dasharray="1.5 7"
+         id="path82" />
+    </g>
+  </g>
+  <mask
+     id="mask88" />
+  <g
+     transform="translate(251 10) rotate(0 35.5859375 11.5)"
+     id="g92">
+    <text
+       x="0"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="20px"
+       fill="#1e1e1e"
+       text-anchor="start"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text90">pcapng:</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     transform="translate(251 50) rotate(0 120 20)"
+     id="g98">
+    <path
+       d="M0 0 L240 0 L240 40 L0 40"
+       stroke="none"
+       stroke-width="0"
+       fill="#ffc9c9"
+       id="path94" />
+    <path
+       d="M0 0 C81.21 0, 162.43 0, 240 0 M0 0 C75.62 0, 151.25 0, 240 0 M240 0 C240 9.82, 240 19.64, 240 40 M240 0 C240 13.22, 240 26.44, 240 40 M240 40 C163.68 40, 87.36 40, 0 40 M240 40 C158.81 40, 77.62 40, 0 40 M0 40 C0 25.29, 0 10.57, 0 0 M0 40 C0 28.04, 0 16.07, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path96" />
+  </g>
+  <g
+     transform="translate(294.0703125 60.79999999999998) rotate(0 76.9296875 9.200000000000003)"
+     id="g102">
+    <text
+       x="76.9296875"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text100">Section Header Block</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     transform="translate(251 90) rotate(0 120 20)"
+     id="g108">
+    <path
+       d="M0 0 L240 0 L240 40 L0 40"
+       stroke="none"
+       stroke-width="0"
+       fill="#ffc9c9"
+       id="path104" />
+    <path
+       d="M0 0 C52.52 0, 105.04 0, 240 0 M0 0 C62.22 0, 124.43 0, 240 0 M240 0 C240 9.47, 240 18.93, 240 40 M240 0 C240 13.42, 240 26.84, 240 40 M240 40 C152.04 40, 64.07 40, 0 40 M240 40 C173.54 40, 107.07 40, 0 40 M0 40 C0 24.17, 0 8.34, 0 0 M0 40 C0 31.37, 0 22.74, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path106" />
+  </g>
+  <g
+     transform="translate(275.84765625 100.79999999999998) rotate(0 95.15234375 9.200000000000003)"
+     id="g112">
+    <text
+       x="95.15234375"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text110">Interface Description Block</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     transform="translate(251 130) rotate(0 120 40)"
+     id="g118">
+    <path
+       d="M0 0 L240 0 L240 80 L0 80"
+       stroke="none"
+       stroke-width="0"
+       fill="#69db7c"
+       id="path114" />
+    <path
+       d="M0 0 C67.7 0, 135.41 0, 240 0 M0 0 C83.31 0, 166.61 0, 240 0 M240 0 C240 26.58, 240 53.17, 240 80 M240 0 C240 22.3, 240 44.6, 240 80 M240 80 C163.45 80, 86.9 80, 0 80 M240 80 C147.47 80, 54.94 80, 0 80 M0 80 C0 54.91, 0 29.81, 0 0 M0 80 C0 54.21, 0 28.42, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path116" />
+  </g>
+  <g
+     transform="translate(286.50390625 135) rotate(0 84.49609375 9.199999999999989)"
+     id="g122">
+    <text
+       x="84.49609375"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text120">Enhanced Packet Block</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     transform="translate(271 170) rotate(0 100 20)"
+     id="g128">
+    <path
+       d="M0 0 L200 0 L200 40 L0 40"
+       stroke="none"
+       stroke-width="0"
+       fill="#b2f2bb"
+       id="path124" />
+    <path
+       d="M0 0 C71.56 0, 143.13 0, 200 0 M0 0 C43.73 0, 87.46 0, 200 0 M200 0 C200 9.81, 200 19.61, 200 40 M200 0 C200 11.16, 200 22.32, 200 40 M200 40 C126.1 40, 52.21 40, 0 40 M200 40 C123.08 40, 46.16 40, 0 40 M0 40 C0 25.47, 0 10.94, 0 0 M0 40 C0 31.03, 0 22.07, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path126" />
+  </g>
+  <g
+     transform="translate(322.96484375 180.8) rotate(0 48.03515625 9.199999999999989)"
+     id="g132">
+    <text
+       x="48.03515625"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text130">packet data 1</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     transform="translate(251 210) rotate(0 120 40)"
+     id="g138">
+    <path
+       d="M0 0 L240 0 L240 80 L0 80"
+       stroke="none"
+       stroke-width="0"
+       fill="#69db7c"
+       id="path134" />
+    <path
+       d="M0 0 C91.46 0, 182.93 0, 240 0 M0 0 C56.76 0, 113.52 0, 240 0 M240 0 C240 23.76, 240 47.53, 240 80 M240 0 C240 26.56, 240 53.11, 240 80 M240 80 C171.16 80, 102.32 80, 0 80 M240 80 C187 80, 134.01 80, 0 80 M0 80 C0 58.64, 0 37.29, 0 0 M0 80 C0 53.01, 0 26.03, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path136" />
+  </g>
+  <g
+     transform="translate(286.50390625 215) rotate(0 84.49609375 9.199999999999989)"
+     id="g142">
+    <text
+       x="84.49609375"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text140">Enhanced Packet Block</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     transform="translate(271 250) rotate(0 100 20)"
+     id="g148">
+    <path
+       d="M0 0 L200 0 L200 40 L0 40"
+       stroke="none"
+       stroke-width="0"
+       fill="#b2f2bb"
+       id="path144" />
+    <path
+       d="M0 0 C52.15 0, 104.29 0, 200 0 M0 0 C52.86 0, 105.73 0, 200 0 M200 0 C200 12.82, 200 25.65, 200 40 M200 0 C200 12.61, 200 25.22, 200 40 M200 40 C136.4 40, 72.79 40, 0 40 M200 40 C133.16 40, 66.32 40, 0 40 M0 40 C0 25.85, 0 11.71, 0 0 M0 40 C0 29.02, 0 18.05, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path146" />
+  </g>
+  <g
+     transform="translate(322.96484375 260.8) rotate(0 48.03515625 9.199999999999989)"
+     id="g152">
+    <text
+       x="48.03515625"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text150">packet data 2</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     id="g158">
+    <g
+       transform="translate(371 290) rotate(0 0 30)"
+       id="g156">
+      <path
+         d="M0 0 C0 16.99, 0 33.99, 0 60"
+         stroke="#1e1e1e"
+         stroke-width="1.5"
+         fill="none"
+         stroke-dasharray="1.5 7"
+         id="path154" />
+    </g>
+  </g>
+  <mask
+     id="mask160" />
+  <g
+     stroke-linecap="round"
+     transform="translate(251 350) rotate(0 120 40)"
+     id="g166">
+    <path
+       d="M0 0 L240 0 L240 80 L0 80"
+       stroke="none"
+       stroke-width="0"
+       fill="#69db7c"
+       id="path162" />
+    <path
+       d="M0 0 C89.69 0, 179.39 0, 240 0 M0 0 C59.4 0, 118.8 0, 240 0 M240 0 C240 16.47, 240 32.94, 240 80 M240 0 C240 26.33, 240 52.66, 240 80 M240 80 C148.71 80, 57.41 80, 0 80 M240 80 C156.27 80, 72.54 80, 0 80 M0 80 C0 63.09, 0 46.18, 0 0 M0 80 C0 55.39, 0 30.79, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path164" />
+  </g>
+  <g
+     transform="translate(286.50390625 355) rotate(0 84.49609375 9.199999999999989)"
+     id="g170">
+    <text
+       x="84.49609375"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text168">Enhanced Packet Block</text>
+  </g>
+  <g
+     stroke-linecap="round"
+     transform="translate(271 390) rotate(0 100 20)"
+     id="g176">
+    <path
+       d="M0 0 L200 0 L200 40 L0 40"
+       stroke="none"
+       stroke-width="0"
+       fill="#b2f2bb"
+       id="path172" />
+    <path
+       d="M0 0 C53.71 0, 107.42 0, 200 0 M0 0 C61.35 0, 122.7 0, 200 0 M200 0 C200 11.12, 200 22.24, 200 40 M200 0 C200 10.76, 200 21.51, 200 40 M200 40 C126.88 40, 53.77 40, 0 40 M200 40 C146.25 40, 92.5 40, 0 40 M0 40 C0 28.57, 0 17.13, 0 0 M0 40 C0 29.21, 0 18.43, 0 0"
+       stroke="#1e1e1e"
+       stroke-width="1"
+       fill="none"
+       id="path174" />
+  </g>
+  <g
+     transform="translate(322.96484375 400.79999999999995) rotate(0 48.03515625 9.199999999999989)"
+     id="g180">
+    <text
+       x="48.03515625"
+       y="0"
+       font-family="Helvetica, Segoe UI Emoji"
+       font-size="16px"
+       fill="#1e1e1e"
+       text-anchor="middle"
+       style="white-space: pre;"
+       direction="ltr"
+       dominant-baseline="text-before-edge"
+       id="text178">packet data n</text>
+  </g>
+</svg>
