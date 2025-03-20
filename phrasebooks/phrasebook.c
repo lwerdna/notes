@@ -95,6 +95,7 @@ void printBits(uint32_t foo, int width)
 	printf("%s", buf+(32-i));
 }
 
+#include <inttypes.h> // for PRIxPTR
 void hexdump(uint8_t *data, size_t size, uintptr_t addr) 
 {
 	char ascii[17];

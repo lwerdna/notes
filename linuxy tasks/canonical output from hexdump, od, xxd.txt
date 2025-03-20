@@ -1,0 +1,13 @@
+Get the classic "OHA" (offset, hex, ascii) output:
+
+$ hexdump -C /bin/ls
+$ xxd -g 1 /bin/ls
+$ od -A x -t x1z -v /bin/ls
+
+For hexdump, "-C" means canonical.
+For xxd, "-g 1" means group 1 byte.
+For od:
+  "-A x" sets address to hex format
+  "-t x1" sets type to hex, 1 byte
+  "z" displays printable characters at the end of each output line
+  "-v" prevents * being used for repeated lines

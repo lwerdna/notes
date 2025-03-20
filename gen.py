@@ -22,6 +22,8 @@ def dirtree(root):
 
 dir2fpaths = {}
 for fpath in dirtree('.'):
+    if fpath.endswith('.excalidraw'):
+        continue
     dname, _ = os.path.split(fpath)
     dname = dname.replace('./', '')
     dir2fpaths[dname] = dir2fpaths.get(dname, []) + [fpath]
