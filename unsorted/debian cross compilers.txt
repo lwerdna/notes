@@ -1,0 +1,36 @@
+ARM C compiler packages `apt search gcc-arm`:
+
+    gcc-arm-linux-gnueabi
+        gcc binary:        arm-linux-gnueabi-gcc
+        interpreter:       /lib/ld-linux.so.3 (package: libc6-armel-cross)
+        bin, include, lib: /usr/arm-linux-gnueabi
+        qemu invocation:   qemu-arm -L /usr/arm-linux-gnueabi ./foo
+
+    gcc-arm-linux-gnueabihf
+        gcc binary:        arm-linux-gnueabihf-gcc
+        interpreter:       /lib/ld-linux-armhf.so.3 (package: libc6-armhf-cross)
+        bin, include, lib: /usr/arm-linux-gnueabihf
+        qemu invocation:   qemu-arm -L /usr/arm-linux-gnubeabihf ./foo
+
+    gcc-arm-none-eabi
+    	gcc binary:        arm-none-eabi-gcc
+    	interpreter:       (none)
+    	bin, include, lib: ?
+        qemu invocation:   ? segfault
+
+AARCH64 C compiler packages `apt search gcc-aarch64`:
+
+	gcc-aarch64-linux-gnu
+	    gcc binary:        aarch64-linux-gnu-gcc
+	    interpreter:       /lib/ld-linux-aarch64.so.1 (package: libc6-arm64-cross)
+	    libs, etc:         /usr/aarch64-linux-gnu
+	    qemu invocation:   qemu-aarch64 -L /usr/aarch64-linux-gnu ./foo
+
+MIPS C compiler packages `apt search gcc-mips`:
+
+	gcc-mips-linux-gnu
+	    gcc binary:        mips-linux-gnu-gcc
+	    interpreter:       /lib/ld.so.1 (package `libc6-mips-cross`)
+	    libs, etc:         /usr/mips-linux-gnu
+	    qemu invocation:   qemu-mips -L /usr/mips-linux-gnu ./foo
+
