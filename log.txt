@@ -1,3 +1,21 @@
+# 2025-03-26
+
+{
+Quick and easy UDP, send() vs. sendto()
+
+    import socket
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    sock.sendto(b'\xde\xea\xbe\xef', ('127.0.0.1', 5000))
+    sock.close()
+
+The connect() on UDP doesn't do anything stateful in the protocol, but associates an (ip, port) on the sender side so you can use send() instead of the more directed sendto()
+
+    sock.connect(('127.00.1', 5000))
+    sock.send(...)
+
+The receiving side cannot determine whether the sending side has issued connect() or not.
+}
+
 # 2025-03-19
 
 {
