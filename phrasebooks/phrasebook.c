@@ -261,3 +261,15 @@ void read_file_to_buffer(char *fpath, void **data, uint32_t *data_len)
     *data_len = file_size;
 }
 
+/* variadic log function */
+#include <stdarg.h>
+#include <stdio.h>
+
+void log_message(const char *format, ...)
+{
+    va_list args;
+    va_start(args, format);
+    vprintf(format, args);
+    // or vprintf to write to file
+    va_end(args);
+}
