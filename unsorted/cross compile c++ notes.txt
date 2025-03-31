@@ -1,0 +1,14 @@
+-nostdlib
+-nostartfiles
+-nodefaultlibs
+
+Why do files like libgcc_s.so show up anyways?
+I deleted the file to find out.
+Some other lib you link against (like libstdc++.so) can require it.
+So provide -rpath, like `-Wl,-rpath,/path/to/libs` because `-Wl,aaa,bbb` to frontend turns into `aaa bbb` to linker.
+
+`-v` to show more verbose output
+`-Xlinker -t` to show temporary files and more stuff
+`--save-temps` to keep temporary files around (files like /tmp/q8dfjwe.o)
+
+-lstdc++ will find libstdc++.so.1.2.3.4 in the path specified by -L
