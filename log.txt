@@ -1,3 +1,23 @@
+# 2025-04-22
+
+{
+Python Coroutines
+
+* coroutines cooperatively pass control flow from one function to another without returning
+* parallelism is multiple control flows executing simultaneously
+* concurrency is multiple control flows taking turns (cooperatively yielding execution or being preempted by a scheduler)
+* roughly:
+	* `yield 3` is a one-way coroutine return of 3 which pauses its execution
+	* `yield from` lets a coroutine delegate yielding to another iterable
+	* `next()` asks an iterator for a value
+	* `send(x)` asks too, but also provides a value to the coroutine, which is the value of the expression with the keyword yield - for example, `yield 5` in the coroutine evaluates to 10 when servicing `g.send(10)`
+	* `next()` is synonymous with `send(None)`
+	* asyncio coroutines are supposedly different than the coroutine idea being built up from generator functions, but I don't know exactly how yet
+
+1. Casthoughts "Coroutines (practical)" https://tacaswell.github.io/coroutines-i.html
+2. Reuven Lerner's "Making sense of generators, coroutines, and "yield from" in Python https://lerner.co.il/2020/05/08/making-sense-of-generators-coroutines-and-yield-from-in-python/
+}
+
 # 2025-03-26
 
 {
