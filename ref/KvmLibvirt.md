@@ -2,7 +2,7 @@ KVM is a kernel virtual machine, a module for linux kernel that exposes /dev/kvm
 
 Do `lsmod | grep kvm` to see that it is loaded.
 
-qemu is the actual virtualizer that uses kvm.
+qemu is the actual virtualizer that uses KVM.
 
 There is also a libvirt daemon running called libvirtd and can be enabled with `systemctl enable --now libvirtd`.
 
@@ -27,14 +27,17 @@ Verify matching versions on each machine:
   virsh shutdown foo
   virsh dumpxml foo > /path/to/foo.xml
   sudo virsh domblklist foo # locate qcow2 files
-  # compare:
-  #   du -h /var/lib/libvirt/images/foo.qcow2 # to
-  #   ls -l /var/lib/libvirt/images/foo.qcow2
-  # compress with:
-  tar --create --verbose --file ~/Downloads/foo.qcow2.tar.gz --gzip --sparse /var/lib/libvirt/images/foo.qcow2
-  # now copy .xml and .qcow2 files to other machine, then:
-  virsh define foo.xml
-  
+
+```
+#compare:
+du -h /var/lib/libvirt/images/foo.qcow2 # to
+ls -l /var/lib/libvirt/images/foo.qcow2
+# compress with:
+tar --create --verbose --file ~/Downloads/foo.qcow2.tar.gz --gzip --sparse /var/lib/libvirt/images/foo.qcow2
+# now copy .xml and .qcow2 files to other machine, then:
+virsh define foo.xml
+```
+
 # Tools
 
 ## virsh "VIRtualization SHell"

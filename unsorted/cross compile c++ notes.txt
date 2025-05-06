@@ -12,3 +12,17 @@ So provide -rpath, like `-Wl,-rpath,/path/to/libs` because `-Wl,aaa,bbb` to fron
 `--save-temps` to keep temporary files around (files like /tmp/q8dfjwe.o)
 
 -lstdc++ will find libstdc++.so.1.2.3.4 in the path specified by -L
+
+C runtime initialization sequence objects:
+
+crt1.o      C runtime start, contains _start
+crti.o      C runtime init, sets up .init sections (for constructors, etc.)
+crtn.o      C runtime nuke, terminates .fini sections (for destructors, etc.)
+
+C++ runtime initialization sequence objects:
+
+crtbegin.o  registers global C++ constructors, maybe interacts with .ctors section
+crtend.o    finalizes global destructor registration, maybe interacts with .dtors section
+
+The "S" counterpart files crtbeginS.o, crtendS.o are for shared libraries instead of lone executables.
+
