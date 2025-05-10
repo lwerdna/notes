@@ -1,0 +1,20 @@
+
+
+# stop it
+sudo systemctl stop NetworkManager
+sudo systemctl stop systemd-resolved
+
+# disable it (so it wont start on boot)
+sudo systemctl disable NetworkManager
+sudo systemctl disable systemd-resolved
+
+#
+sudo rm /etc/resolv.conf
+# release
+sudo dhclient -v -i myinterface -r
+# new one
+sudo dhclient -v -i myinterface
+
+Look at /etc/dhcp/dhclient.conf for what dhclient is doing.
+If you see "domain-name", "domain-name-servers", I think it will write /etc/resolv.conf.
+
