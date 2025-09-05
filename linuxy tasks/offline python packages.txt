@@ -6,7 +6,7 @@ Install with:
 
   pip install --no-index --find-links /path/to/packages SomePackage
 
-And if all your junk is in this directory, it will look like:
+So if all your junk is in this directory, it will look like:
 
   pip install --no-index --find-links . tlslite-ng
 

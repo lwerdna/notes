@@ -1,0 +1,3 @@
+nmcli device status
+sudo nmcli device set eno1 managed no
+sudo nmcli device set eno1 managed yes
