@@ -9,3 +9,7 @@ ping scan, no ports
 only hosts with specified port open
 
   nmap -p 31337 192.168.1.1/24 --open
+
+ports on a particular host (or `-p -` for all ports)
+
+  nmap -p 1-1024 192.168.1.123

@@ -1,9 +1,0 @@
-sudo systemctl enable NetworkManager.service
-sudo systemctl disable NetworkManager.service
-
-sudo systemctl start NetworkManager.service
-sudo systemctl stop NetworkManager.service
-
-nmcli device status
-sudo nmcli device set eno1 managed no
-sudo nmcli device set eno1 managed yes
