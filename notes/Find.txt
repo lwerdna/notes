@@ -10,3 +10,10 @@ Using sed's `-i` (in-place editing), you can replace text in files:
 
   find . -name "*.py" -exec sed -i 's/before/after/g' {} \;
 
+List files in current directory only (-mindepth prevents listing .)
+
+  find . -mindepth 1 -maxdepth 1
+
+There is a useful "not" or disclude operator:
+
+  find . ! -name foo.txt ! -name bar.txt

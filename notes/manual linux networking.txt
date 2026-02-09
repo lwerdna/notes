@@ -1,4 +1,12 @@
+sudo systemctl enable NetworkManager.service
+sudo systemctl disable NetworkManager.service
 
+sudo systemctl start NetworkManager.service
+sudo systemctl stop NetworkManager.service
+
+nmcli device status
+sudo nmcli device set eno1 managed no
+sudo nmcli device set eno1 managed yes
 
 # stop it
 sudo systemctl stop NetworkManager
@@ -17,4 +25,3 @@ sudo dhclient -v -i myinterface
 
 Look at /etc/dhcp/dhclient.conf for what dhclient is doing.
 If you see "domain-name", "domain-name-servers", I think it will write /etc/resolv.conf.
-
