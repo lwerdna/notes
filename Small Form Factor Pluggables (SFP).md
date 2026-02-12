@@ -1,3 +1,4 @@
+tags: #Networking #Hardware
 ## Finisar FCLF-8521-3
 see: [[SFP Finisar FCLF-8521-3]]
 ## QSFPNESE GLC-T_QS

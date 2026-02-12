@@ -1,3 +1,5 @@
+tags: #Linux 
+
 KVM is a kernel virtual machine, a module for linux kernel that exposes /dev/kvm.
 
 Do `lsmod | grep kvm` to see that it is loaded.

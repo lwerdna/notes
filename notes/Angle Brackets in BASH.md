@@ -1,3 +1,5 @@
+tags: #Linux #Bash
+
 ```
 <   passes the contents of a file to stdin
 <<  "here document" passes multiple lines until a terminator to stdin

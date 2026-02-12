@@ -1,7 +1,8 @@
-TIL: the allowed login shells are in a only-writeable-by-root list in `/etc/shell`.
+tags: #Linux #Bash 
+
+TIL: the allowed login shells are in a only-writeable-by-root list in `/etc/shells`.
 
 Some helper functions are available for reading this file, see `man getusershell`.
-Here's a demo:
 
 ```C
 #include <stdio.h>
@@ -16,8 +17,6 @@ int main(int ac, char **av)
 	endusershell();
 	return 0;
 }
-``
-
 ```
 
 ```
